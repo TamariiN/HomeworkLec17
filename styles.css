@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces';
+    font-style: normal;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+}
+.desk-menu, .desk-bg{
+    display: none;
+}
+.bcgr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bcgr img{
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    top:32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 170px;
+}
+.mob-menu{
+    position: absolute;
+    top: 57px;
+    left: -2px;
+    width: 329px;
+    height: 329px;
+    background-color: white;
+    z-index: 1;
+
+    display: none;
+}
+.drop:hover .mob-menu{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .lil-div{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+} */
+.big-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.about:hover{
+    text-decoration: underline blue;
+
+}
+.contact{
+    width: 140px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #FBD600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creative{
+    position: absolute;
+    top: 144px;
+}
+.main, .main-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.transform, .stand{
+    width: 327px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.cherry{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.cherry-t{
+    width: 327px;
+    position: absolute;
+    bottom: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.testim{
+    margin: 64px 48px 64px 48px;
+}
+.triplet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.box p{
+    width: 327px;
+}
+.img4-div{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    background-color: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loggo{
+    margin-top: 64px;
+}
+.f-menu{
+    margin-top: 40px;
+    margin-bottom: 88px;
+}
+
+h1{
+    width: 327px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 900;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    color: white;
+}
+h2{
+    color: #24303E;
+    text-align: center;
+    font-size: 32px;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 900;
+    letter-spacing: -0.229px;
+}
+h3{
+    color: #24303E;
+    text-align: center;
+    font-size: 18px;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 900;
+    letter-spacing: -0.129px;
+}
+h4{
+    color: #A7AAAD;
+    text-align: center;
+    font-size: 16px;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+h5{
+    color: #A7AAAD;
+    text-align: center;
+    font-size: 14px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+a{
+    color: #24303E;
+    font-size: 15px;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h6{
+    color: #808397;
+    font-size: 20px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.143px;
+}
+p{
+    color: #808397;
+    text-align: center;
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.129px;
+}
+.contact h6{
+    color: #24303E;
+    font-size: 15px;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.107px;
+    text-transform: uppercase;
+}
+.p{
+    padding-right: 57px;
+}
+.p2{
+    padding-right: 28px;
+}
+.f-menu a{
+    color: #458D7E;
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.129px;
+    text-transform: none;
+}

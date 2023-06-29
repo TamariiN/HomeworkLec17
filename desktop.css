@@ -1,0 +1,79 @@
+@media screen and (min-width: 1440px) {
+    
+    .drop, .mob{
+        display: none;
+    }
+    .desk-bg, .desk-menu{
+        display: block;
+    }
+    .desk-menu{
+        display: flex;
+    }
+    .menu{
+        margin-top: 20px;
+        gap:700px;
+    }
+    .dsk-a{
+        padding-right:47px;
+        color: white;
+        font-size: 18px;
+        font-family: Barlow;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.129px;
+        text-transform:none
+    }
+    h1{
+        width: 560px;
+    }
+    .main-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .egg{
+        grid-area: 1 / 2 / span 1 / span 1;
+    }
+    .egg, .egg img, .transform, .cup, .cup img, .stand, .cherry, .cherry img{
+        margin: 0;
+        width: 720px;
+        height: 600px;
+    }
+    .transform{
+        justify-content: center;
+    }
+    .transform p, .transform h2, .transform a, .stand p, .stand h2, .stand a {
+        width: 445px;
+        text-align: start;
+    }
+    .stand{
+        justify-content: center;
+    }
+    .testim{
+        margin: 120px 48px 64px 48px;
+    }
+    .triplet{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img4-div{
+        grid-template-columns: auto auto auto auto;
+    }
+    .img4-div img{
+        width:360px;
+        height: 447px;
+    }
+    .f-socials{
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+    .box p{
+        width: 329px;
+    }
+    .h4{
+        font-size: 20px;
+        font-family: Fraunces 9pt Soft;
+        letter-spacing: 5px;
+
+    }
+    
+}
